@@ -1,0 +1,384 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 3, 36);
+    padding: 15px 50px 15px 50px;
+}
+
+header section img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+header nav{
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li {
+    margin-left:30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav ul li:hover{
+background-color: teal;
+cursor: pointer;
+}
+
+.gif-container {
+    content: url('hero.gif');
+      display: block;
+      width: 500px;
+      height: 400px;
+}
+
+main div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white
+}
+
+main{
+    background-color:black;
+    padding: 50px;
+}
+
+.middle-top h2 {
+ font-size: 40px;
+ padding-left: 15px;
+ color: white;
+}
+
+.middle-top {
+    font-size: 28px;
+    color: gray;
+    border-left: 4px solid green;
+    padding-left: 15px;
+}
+.top-division {
+    font-size: 40px;
+    }
+
+    .bottom-division{
+        font-size: 28px;
+        color: gray;
+    }
+    .highlight{
+        color: rgb(34, 151, 93);
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: rgb(3, 3, 36);
+        color:white ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 35px;
+    }
+
+    footer ul {
+        list-style: none;
+    }
+
+    .bottom-card-first h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: green;
+    margin-bottom: 15px;
+    border-left: 4px solid greenyellow;
+    padding-left: 15px;
+    }
+
+    .bottom-card-first ul li:hover {
+        background-color: teal;
+        cursor: pointer;
+    }
+
+    footer input {
+        padding:8px 15px;
+        border-radius: 8px;
+    }
+
+    footer p {
+    margin-top: 15px;
+    }
+
+    .bottom-card-second img{
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .bottom-card-third h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: green;
+        margin-bottom: 15px;
+        border-left: 4px solid greenyellow;
+        padding-left: 15px;
+        cursor: pointer;
+        }
+
+        .bottom-card-third  :hover{
+            cursor: pointer;
+            background-color: teal;
+        }
+
+        .services-card-one {
+            background-color: rgb(3, 3, 36);
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        .services-card-one img {
+            width: 40px;
+            height:20px;
+            margin-bottom: 5px;
+        }
+
+        .services-card-mid {
+            margin: 0 15px;
+        }
+        
+        .services-div {
+            margin-top: 35px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-bottom: 35px;
+        }
+
+        .services-div h2 {
+            color: green;
+            margin-bottom: 15px;
+        }
+
+        .services-card-one div{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color:black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 10px;
+            margin-top: -50px;
+        }
+
+        .technical-card-top h2 {
+            font-size: 40px;
+            color: white;
+           padding-top: 20px;
+           padding-bottom: 15px;
+           }
+        
+           .technical-card-top {
+            font-size: 28px;
+            color: gray;
+            border-left: 4px solid green;
+            padding-left: 15px;
+            margin-bottom: 40px;
+           }
+
+           .tech-card {
+            border: 2px solid green;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 220px;
+            padding: 25px;
+            border-radius: 8px;
+           }
+
+           .tech-card img {
+            height: 40px;
+            width: 40px;
+           }
+
+           .technical-card-mid {
+            width: 220px;
+            text-align: center;
+           }
+
+           .tech-card-middle img{
+            height: 40px;
+            width: 50px;
+            margin-top: 50px;
+            padding-bottom: 5px;
+           }
+
+           .tech-card-middle {
+            width: 180px;
+            text-align: center;
+           }
+
+           .tech-card-bottom h2 {
+           font-size: 20px;
+           color: white;
+           }
+
+           .tech-card-bottom {
+            color: grey;
+            border-left: 2px solid green;
+            padding-left: 10px;
+           }
+
+           .tech-card-first {
+            border: 2px solid green;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 40px;
+           }
+           
+           .button-two{
+            margin-top: 25px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            box-sizing:border-box ;
+           }
+
+           .deliver-card h2{
+            font-size: 50px;
+            padding-left: 15px;
+            color: white;
+           }
+
+           .deliver-card {
+            color: grey;
+            font-size: 40px;
+            border-left: 4px solid green;
+            padding-left: 15px;
+            margin-bottom: 20px;
+           }
+
+           .deliver-card-images img {
+            height: 200px;
+            width: 400px;
+            margin-right: 15px;
+            margin-left: 80px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+           }
+
+           .Strength-card h2{
+            font-size: 50px;
+            padding-left: 15px;
+            color: white;
+           }
+
+           .Strength-card {
+            color: grey;
+            font-size: 40px;
+            border-left: 4px solid green;
+            padding-left: 15px;
+            margin-bottom: 20px;
+           }
+
+           .cost-dedicated-card-one img {
+             width: 40px;
+             height: 30px; 
+           }
+
+          .cost-dedicated-card-one  h2{
+            color: white;
+           margin-left: 4px;
+        
+           }
+
+           .cost-dedicated-card-one {
+            background-color: rgb(3, 3, 36);
+            padding: 100px 200px ;
+            border-radius: 8px;
+            color: green;
+           }
+        
+           .cost-dedicated-card-two img{
+            width: 40px;
+            height: 30px; 
+        
+           }
+
+           .cost-dedicated-card-two {
+            background-color: rgb(3, 3, 36);
+            padding: 100px 200px;
+            border-radius: 8px;
+            margin-left: 20px;
+           }
+
+           .cost-dedicated-card-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+
+           .service-detail-card-one {
+            background-color: rgb(3, 3, 36);
+            padding: 100px 200px ;
+            border-radius: 8px;
+            color: green;
+           }
+           
+           .service-detail-card-one img {
+            width: 40px;
+             height: 30px;
+           }
+
+           .service-detail-card-one h2{
+            color: white;
+            margin-left: 4px;
+           }
+
+           .service-detail-card-two img {
+            width: 40px;
+             height: 30px;
+           }
+
+           .service-detail-card-two h2 {
+            color: white;
+            margin-left: 4px;
+           }
+
+           .service-detail-card-two {
+            background-color: rgb(3, 3, 36);
+            padding: 100px 200px ;
+            border-radius: 8px;
+            color: green;
+            margin-left: 25px;
+           }
+
+           .service-detail-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+           }
+            
+           
+
+           
+           
+
+           
+
+
+
+    
+    
